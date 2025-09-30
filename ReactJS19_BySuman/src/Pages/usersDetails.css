@@ -1,0 +1,59 @@
+.UserDetailsHere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  color: #333;
+  width: 400px;
+  margin: 21px auto;
+  padding: 21px;
+}
+.UserDetailsHere h1 {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.UserDetailsHere .usersHere {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin: 21px auto;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(160, 178, 193);
+  color: #333;
+}
+.UserDetailsHere .usersHere .yourName {
+  text-transform: uppercase;
+}
+.UserDetailsHere .usersHere p {
+  color: #f0f0f0;
+  cursor: pointer;
+  padding: 11px;  
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.UserDetailsHere .usersHere p:hover {
+ background-color: rgb(111, 153, 190);
+ color: #f0f0f0;
+ padding: 11px;
+}
+.UserDetailsHere .usersHere button {
+  padding: 11px;
+  width: 100%;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: transparent;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+.UserDetailsHere .usersHere button:hover {
+ background-color: rgb(111, 153, 190);
+ color: #f0f0f0;
+}
+

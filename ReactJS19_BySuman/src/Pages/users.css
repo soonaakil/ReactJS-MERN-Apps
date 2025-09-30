@@ -1,0 +1,29 @@
+.userDetails {
+  margin: 21px;
+}
+.userDetails .items {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    line-height: 1.5rem;
+    /* border: 1px solid red; */
+    width: 200px;
+    /* text-align: center; */
+}
+.userDetails .items:hover {
+  background-color: aliceblue;
+  color: #333;
+}
+.userDetails .items a {
+  padding-left: 21px;
+  width: 100%;
+  color: #f0f0f0;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* padding: 11px; */
+}
+.userDetails .items a:hover {
+  /* background-color: aliceblue; */
+  color: #333;
+  font-weight: 700;
+}

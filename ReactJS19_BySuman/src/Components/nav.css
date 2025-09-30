@@ -1,0 +1,45 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(129, 116, 100);
+    padding-left: 21px;
+}
+.nav-container .logo {
+    cursor: pointer;
+}
+.nav-container .logo h1 {
+    font-weight: 700;
+}
+.nav-container .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 21px; */
+}
+.nav-container .links a {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 19px;
+    font-weight: 700;
+}
+.nav-container .links a:hover {
+    background-color: aliceblue;
+    color: #333;
+    font-weight: 700;
+}
+.nav-container .links button {
+    color: #f0f0f0;
+    font-weight: 800;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.nav-container .links button:hover {
+    background-color: aliceblue;
+    color: #333;
+    font-weight: 700;
+}
+.nav-container .links button a {
+}
+

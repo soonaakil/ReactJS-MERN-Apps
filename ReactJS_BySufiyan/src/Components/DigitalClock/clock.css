@@ -1,0 +1,21 @@
+/* Digital Clock Designing */
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 480px;
+  padding: 21px;
+  margin: 21px auto;
+  background-color: #066880;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.time-container h3 {
+  margin-bottom: 11px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

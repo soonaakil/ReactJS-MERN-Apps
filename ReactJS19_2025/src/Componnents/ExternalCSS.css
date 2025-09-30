@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container3rd {
+    background-color: rgb(18, 58, 45);
+    color: #fff;
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+}
